@@ -1,0 +1,95 @@
+.formControl label {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+  }
+  
+  .formControl input {
+    width: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 6px;
+  }
+  
+  .formControl input::placeholder {
+    color: #8b8b8b;
+  }
+  
+  .formControl input:focus {
+    outline: none;
+  }
+  
+
+.modalContent {
+  margin: 19px;
+}
+
+.modalContent h2 {
+  margin-bottom: 37px;
+  font-size: 21px;
+}
+
+.formControl {
+  margin-top: 15px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 34px;
+}
+
+.buttons button {
+  border: none;
+  padding: 12px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  color: #282828cc;
+}
+
+.buttons button:disabled {
+  opacity: 0.6;
+}
+
+.add {
+  background-color: #4a98e0;
+  color: #ffffff !important;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  backdrop-filter: blur(6px);
+}
+
+.modal {
+  background: #ffffff;
+  padding: 12px 24px;
+  border-radius: 28px;
+  text-align: center;
+  width: 450px;
+  z-index: 16;
+}
+
+.error {
+  color: #d9534f;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: right;
+  display: flex;
+}

@@ -1,0 +1,52 @@
+.buttons {
+    display: flex;
+    gap: 12px; 
+    margin-top: 28px; 
+    padding: 0 28px; 
+}
+
+.buttons button {
+    width: 100%;
+    border: none;
+    padding: 12px 50px; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #E53E3E; 
+    color: #FFFFFF;
+}
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.45); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15; 
+    backdrop-filter: blur(6px); 
+}
+
+.modal {
+    background: #FFFFFF;
+    padding: 24px; 
+    border-radius: 28px; 
+    text-align: center;
+    width: 460px; 
+}
+
+.modalContent {
+    margin: 18px;
+}
+
+.modalContent p {
+    margin-top: 38px; 
+    font-size: 19px; 
+}
+
